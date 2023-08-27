@@ -2,12 +2,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "deno run -A --unstable --node-modules-dir npm:vitepress dev",
-    "build": "deno run -A --unstable --node-modules-dir npm:vitepress build",
-    "serve": "deno run -A --unstable --node-modules-dir npm:vitepress serve"
+    "dev": "deno run -A --reload --node-modules-dir npm:vitepress dev",
+    "build": "deno run -A --node-modules-dir npm:vitepress build",
+    "serve": "deno run -A --node-modules-dir npm:vitepress serve"
   },
   "dependencies": {
-    "vitepress": "latest",
-    "vue": "latest"
+    "vitepress": "1.0.0-rc.5",
+    "vue": "3.3.4"
   }
 }
